@@ -1,4 +1,7 @@
 package com.minitienda;
+
+import java.util.ArrayList;
+
 /**
  *
  * @author Coder
@@ -6,5 +9,8 @@ package com.minitienda;
 public class MiniTienda {
 
     public static void main(String[] args) {
+        
+        ArrayList <String> productos  = new ArrayList<>();
+        
     }
 }
