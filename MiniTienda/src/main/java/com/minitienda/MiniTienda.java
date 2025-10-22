@@ -1,8 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.minitienda;
+
+
 
 /**
  *
@@ -11,6 +9,13 @@ package com.minitienda;
 public class MiniTienda {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Inventario inventario = new Inventario();
+        
+        inventario.addProducto("masa ", 2005,10);
+        
+        inventario.mostrarProductos();
+        
+      
+        
     }
 }
