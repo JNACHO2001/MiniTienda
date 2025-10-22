@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
  * @author Coder
  */
 public class MiniTienda {
-
+// este es al aray base 
     private Inventario inventario = new Inventario(); // Mantiene los productos en la sesión
 
     public static void main(String[] args) {
